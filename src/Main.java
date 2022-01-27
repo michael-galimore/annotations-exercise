@@ -1,4 +1,9 @@
-public class Main {
+@SuppressWarnings("deprecation")
+public class Main extends Author {
+    public Main(String firstName, String lastName) {
+        super(firstName, lastName);
+    }
+
     public static void main(String[] args) {
         Author author = new Author("Sandi", "Metz");
 
